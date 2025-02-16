@@ -1,0 +1,29 @@
+run:
+  tests: false
+  timeout: 5m
+  output:
+    format: tab
+  skip-dirs:
+    - vendor
+linters:
+  enable-all: true
+  disable:
+    - deadcode
+    - depguard
+    - exhaustruct
+    - exhaustivestruct
+    - golint
+    - ifshort
+    - interfacer
+    - lll
+    - maligned
+    - nlreturn
+    - nosnakecase
+    - promlinter
+    - scopelint
+    - structcheck
+    - tagliatelle
+    - varcheck
+    - varnamelen
+    - wrapcheck
+    - wsl
